@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">TravelThe<span>Sea</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="pricing.html">Deals</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="purchase-cta"><a href="purcase.html">Purchase</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </div>
+    <section class="reciept">
+        <div class="container">
+            <div class="header">
+                <h2>Reciept</h2>
+            </div>
+
+            <div class="container-1">
+                <ul class="name-of-obj">
+                    <li>Destination</li>
+                    <li>Quantity</li>
+                    <li>Price</li>
+                </ul>
+
+                <ul class="destination-1">
+                    <li>4 days Alaksa</li>
+                    <li>2</li>
+                    <li>$1,203</li>
+                </ul>
+
+            </div>
+            <div class="hero-destinations-cta">
+                <a href="#" class="des-primary-cta">Buy Tickets</a>
+                
+            </div>
+
+            <div class="container-2">
+                <ul class="name-of-obj">
+                <li>Destination</li>
+                <li>Quantity</li>
+                <li>Price</li>
+            </ul>
+        
+            <ul class="destination-2">
+                <li>12 days USA</li>
+                <li>2</li>
+                <li>$3,482</li>
+            </ul>
+            </div>
+            <div class="hero-destinations-cta">
+                <a href="#" class="des-primary-cta">Buy Tickets</a>
+                
+            </div>
+
+            <div class="container-3">
+                <ul class="name-of-obj">
+                <li>Destination</li>
+                <li>Quantity</li>
+                <li>Price</li>
+            </ul>
+
+            <ul class="destination-3">
+                <li>3 days Singapore</li>
+                <li>2</li>
+                <li>$920</li>
+            </ul>
+            </div>
+            <div class="hero-destinations-cta">
+                <a href="#" class="des-primary-cta">Buy Tickets</a>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+    
+</body>
+</html>
