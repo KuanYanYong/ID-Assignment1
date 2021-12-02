@@ -1,0 +1,10 @@
+.hero-destinations-cta{
+  /* background: var(--primary-color); */
+  color: white;
+  text-decoration: none;
+  /* padding: .6em 1.3em; */
+  font-size: 0.8em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  z-index: 200;
