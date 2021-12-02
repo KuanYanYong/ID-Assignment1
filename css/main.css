@@ -127,7 +127,8 @@ section {
 
 
 section.features-section {
-  background: #20272E;
+  /* background: #20272E; */
+  background-image: url(/ID-Assignment1/images/for-features-section-img.jpg);
   color: white;
 }
 
@@ -147,6 +148,14 @@ ul.des-features-list {
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+.singapore .des-features-list{
+  margin-left: 1em;
+}
+
+.paris .des-features-list{
+  margin-left: 1em;
 }
 
 ul.features-list li {
@@ -190,7 +199,9 @@ ul.des-features-list li:before {
 }
 
 .reviews-section {
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background-image: url(/ID-Assignment1/images/picture\ of\ cruise.jpg);
+  background-image: no-repeat;
   color: white;
 }
 
@@ -567,7 +578,7 @@ nav li a:hover {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  letter-spacing: .3em;
+  letter-spacing: .3em; 
   font-size: 0.5em;
 
 }
@@ -624,18 +635,43 @@ nav li a:hover {
 
 }
 .alaska .container{
-  background-image: url(/ID-Assignment1/images/hari-nandakumar-eANcXwBWzSw-unsplash.jpg);
+  background-image: url(/ID-Assignment1/images/alaska-img.jpg);
   border-radius: 1em;
 }
 .korea .container{
   border-radius: 1em;
-  background-image: url(/ID-Assignment1/images/hari-nandakumar-eANcXwBWzSw-unsplash.jpg);
+  background-image: url(/ID-Assignment1/images/korea-img.jpg);
 }
+.japan .container{
+  border-radius: 1em;
+  background-image: url(/ID-Assignment1/images/japan-img.jpg);
+}
+.paris .container{
+  border-radius: 1em;
+  background-image: url(/ID-Assignment1/images/paris-img.jpg);
+}
+
+
 .alaska .des-features-list{
   margin-left: 1em;
 }
 .korea .des-features-list{
   margin-left: 1em;
+}
+.japan .des-features-list{
+  margin-left: 1em;
+}
+.learn-more{
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: .3em;
+  font-weight: bold;
+}
+.alaska .left-col{
+  color: whitesmoke;
+}
+.japan .left-col{
+  color: whitesmoke;
 }
 
 
@@ -886,6 +922,83 @@ nav li a:hover {
     width: 90%;
   }
   .korea-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+  .des-primary-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .des-primary-cta {
+    margin-right: 1em;
+  }
+}
+
+
+@media only screen and (min-width: 1080px){
+  .japan .container{
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  .japan .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  .japan .container .left-col {
+    margin: 3em 3em 0 5em;
+  }
+  .japan .container .left-col h1 {
+    font-size: 3em;
+    width: 90%;
+  }
+  .japan-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+  .des-primary-cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .des-primary-cta {
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 1080px){
+  .paris .container{
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  .paris .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  .paris .container .left-col {
+    margin: 3em 3em 0 5em;
+  }
+  .paris .container .left-col h1 {
+    font-size: 3em;
+    width: 90%;
+  }
+  .paris-img {
     width: 30%;
     margin-right: 8em;
   }
