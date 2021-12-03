@@ -532,7 +532,7 @@ nav li a:hover {      /* nav bar*/
   margin-bottom: 0;
 }
 .deal-1 .container{
-  background-image: url("/images/picture-of-cruise.jpg");
+  background-image: url("../images/picture-of-cruise.jpg");
 }
 .deal-2 .container{
   background-image: url("../images/deals-header\ image.jpg");
@@ -788,7 +788,7 @@ nav li a:hover {      /* nav bar*/
     width: 45%;
     height: 100%;
   }
-  .contact-right iframe {
+  .contact-right iframe {     /* adjust dimension to embed*
     height: 100%;
   }
 }
