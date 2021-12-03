@@ -247,7 +247,7 @@ input[type="submit"] {
   color: white;
   font-weight: bold;
   font-size: 1.3em;
-  border: none;
+  border: 0;
   margin-bottom: 5em;
   border-radius: 5em;
   display: inline-block;
@@ -419,13 +419,13 @@ nav li a:hover {
 }
 
 .container-1, .container-2, .container-3, .container-4{
-  background: rgb(16, 111, 167);
+  background: #74BDCB;
   margin-bottom: 2em;
   margin-top: 1em;
 }
 .deals-container h1 {
   font-size: 3em;
-  font: "Poppins";
+  /* font: "Poppins"; */
   color: white;
 }
 
@@ -645,7 +645,7 @@ nav li a:hover {
     text-align: center;
   }
   .alaska .container{
-    padding-bottom: none;
+    padding-bottom: 0;
     margin-bottom: 2em;
     
   }
