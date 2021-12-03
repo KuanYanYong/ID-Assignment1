@@ -8,3 +8,4 @@ The next section is a features section to summarise what the cruise has to provi
 The final section of the home page features a review section given by previous customers of the cruise. The reviews are taken from real cruise website, but the picture of the person is not real. The review are shown in a container on a background of a cruise.
 
 for purchase.html, i realised that the assignment did not require us to make an eCommerce platform but a website that showcase products, but i decided to keep it.
+Going to the second page "destinations.html" I have many containers that are meant for different destinations. The containers have different background depending on their destination. The container would also have a list of the popular attraction from that particular destination. making it nice and colorful would attract online users' attention. at the end of the page, I have included a small CTA to direct users to the "Official Website" if clicked.
