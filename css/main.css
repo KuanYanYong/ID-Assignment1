@@ -11,7 +11,7 @@ body {
 }
 
 .background-container{            /* added background img and set the dimension and z-index for the container*/
-  background-image: url("/images/picture-of-cruiseship.jpeg");
+  background-image: url("../images/picture-of-cruiseship.jpeg");
   z-index: -1;
   width: 1888px;
   height: 288px;
@@ -104,7 +104,7 @@ section {                       /* set padding for section tag*/
 
 
 section.features-section {     /* cruise features section*/
-  background-image: url("/images/for-features-section-img.jpg");
+  background-image: url("../images/for-features-section-img.jpg");
   color: white;
 }
 
@@ -535,16 +535,16 @@ nav li a:hover {      /* nav bar*/
   background-image: url("/images/picture-of-cruise.jpg");
 }
 .deal-2 .container{
-  background-image: url("/images/deals-header\ image.jpg");
+  background-image: url("../images/deals-header\ image.jpg");
 }
 .deal-3 .container{
-  background-image: url("/images/deal-img-2.jpg");
+  background-image: url("../images/deal-img-2.jpg");
 }
 .deal-4 .container{
-  background-image: url("/images/deal-img-4.jpg");
+  background-image: url("../images/deal-img-4.jpg");
 }
 .deal-5 .container{
-  background-image: url("/images/deal-img-3.jpg");
+  background-image: url("../images/deal-img-3.jpg");
 }
 .para{
   text-transform: uppercase;
@@ -556,7 +556,7 @@ nav li a:hover {      /* nav bar*/
 }
 
 .deals-header{
-  background-image: url("/images/deals-header\ image.jpg");
+  background-image: url("../images/deals-header\ image.jpg");
 }
 
 @media only screen and (min-width: 1000px) { /* media query for deals*/
@@ -604,20 +604,20 @@ nav li a:hover {      /* nav bar*/
 
 }
 .alaska .container{         /* container for destinations and background img*/
-  background-image: url("/images/alaska-img.jpg");
+  background-image: url("../images/alaska-img.jpg");
   border-radius: 1em;
 }
 .korea .container{
   border-radius: 1em;
-  background-image: url("/images/korea-img.jpg");
+  background-image: url("../images/korea-img.jpg");
 }
 .japan .container{
   border-radius: 1em;
-  background-image: url("/images/japan-img.jpg");
+  background-image: url("../images/japan-img.jpg");
 }
 .paris .container{
   border-radius: 1em;
-  background-image: url("/images/paris-img.jpg");
+  background-image: url("../images/paris-img.jpg");
 }
 
 
