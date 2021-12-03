@@ -13,3 +13,5 @@ Going to the second page "destinations.html" I have many containers that are mea
 For the next page, "pricing.html" titled as "Deals". It showcases the different deals provided by the company. The header is big and bold to attract the users' attention. The containers all have different background to make the page more lively. And each container would show the different prices and name of the deals. At the bottom of the page, the same CTA is provided to direct users to "Official Website" 
 
 The Contact Section -"contact.html" is a simple page which shows 2 forms, labelled under "Name" and "Message" and a button "Send Message". This allow users to provide their feedback or enquiries to the company. On the right, a map is provided to show the location of the company's headquarter.
+
+For the final page "purchase.html". I misunderstood and made a "E-commerce website" which was not what is required. This page was to allow transaction to take place. And I decided to leave the page as it is, simply designed to show the tickets' details bought by users.
