@@ -9,3 +9,6 @@ The final section of the home page features a review section given by previous c
 
 for purchase.html, i realised that the assignment did not require us to make an eCommerce platform but a website that showcase products, but i decided to keep it.
 Going to the second page "destinations.html" I have many containers that are meant for different destinations. The containers have different background depending on their destination. The container would also have a list of the popular attraction from that particular destination. making it nice and colorful would attract online users' attention. at the end of the page, I have included a small CTA to direct users to the "Official Website" if clicked.
+
+For the next page, "pricing.html" titled as "Deals". It showcases the different deals provided by the company. The header is big and bold to attract the users' attention. The containers all have different background to make the page more lively. And each container would show the different prices and name of the deals. At the bottom of the page, the same CTA is provided to direct users to "Official Website" 
+
