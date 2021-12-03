@@ -116,8 +116,8 @@ section.features-section {     /* cruise features section*/
 }
 
 ul.features-list {            /* li of features of cruise on home page*/
-  margin: 0;
-  padding-left: .1em;
+  margin: 0;                  /* defines a size range greater than or equal to min and less than or equal to max*/
+  padding-left: .1em;         /* grid template */
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
@@ -125,9 +125,9 @@ ul.features-list {            /* li of features of cruise on home page*/
 }
 
 ul.des-features-list {        /* li of features of destinations on destinations page*/
-  margin: 0;
-  padding-left: .1em;
-  display: -ms-grid;
+  margin: 0;                  /* defines a size range greater than or equal to min and less than or equal to max*/
+  padding-left: .1em;     
+  display: -ms-grid;          /* grid template */
   display: grid;
   -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
