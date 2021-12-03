@@ -788,13 +788,13 @@ nav li a:hover {      /* nav bar*/
     width: 45%;
     height: 100%;
   }
-  .contact-right iframe {     /* adjust dimension to embed*/
+  .contact-right iframe {
     height: 100%;
   }
 }
 
 @media only screen and (min-width: 1450px) {    /* media query for features of cruise*/
-  .features-section:before{
+  .features-section:before {
     content: '';
     position: absolute;
     width: 10%;
