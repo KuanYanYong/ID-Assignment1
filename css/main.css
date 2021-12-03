@@ -9,16 +9,9 @@ body {
   font-family: 'Poppins';
   
 }
-/* body{
-  background-image: url("/ID-Assignment1/images/picture\ of\ cruise.jpg");
-  z-index: -1;
-} */
-/* .hero .container{
 
-  background-color: red;
-} */
 .background-container{            /* added background img and set the dimension and z-index for the container*/
-  background-image: url("/images/picture\ of\ cruise.jpg");
+  background-image: url("/images/picture-of-cruiseship.jpeg");
   z-index: -1;
   width: 1888px;
   height: 288px;
@@ -180,7 +173,7 @@ ul.des-features-list li:before {  /* destination features in phone view*/
 
 .reviews-section {            /* review section background and colour*/
   
-  background-image: url("../images/picture\ of\ cruise.jpg");
+  background-image: url("../images/picture-of-cruise.jpg");
   background-image: no-repeat;
   color: white;
 }
@@ -539,19 +532,19 @@ nav li a:hover {      /* nav bar*/
   margin-bottom: 0;
 }
 .deal-1 .container{
-  background-image: url("/images/picture\ of\ cruise.jpg");
+  background-image: url("/images/picture-of-cruise.jpg");
 }
 .deal-2 .container{
-  background-image: url("/images/deal\ images\(1\).jpg");
+  background-image: url("/images/deals-header\ image.jpg");
 }
 .deal-3 .container{
-  background-image: url("/images/deal\ images\(2\).jpg");
+  background-image: url("/images/deal-img-2.jpg");
 }
 .deal-4 .container{
-  background-image: url("/images/deal\ images\(4\).jpg");
+  background-image: url("/images/deal-img-4.jpg");
 }
 .deal-5 .container{
-  background-image: url("/images/deal\ images\(3\).jpg");
+  background-image: url("/images/deal-img-3.jpg");
 }
 .para{
   text-transform: uppercase;
